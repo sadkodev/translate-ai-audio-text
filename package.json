@@ -1,0 +1,21 @@
+{
+  "name": "translate-ai-audio-text",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "tesseract.js": "^4.0.5",
+    "whisper-node": "^0.2.12"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
